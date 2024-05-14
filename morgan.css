@@ -1,0 +1,14 @@
+nav {
+    border-bottom :3px solid black;
+    padding: 50px;
+    display: flex;
+}
+
+.nav_gauche {
+    padding: 20px 50px;
+}
+
+.nav_droite {
+    padding: 20px 50px;
+    
+}
