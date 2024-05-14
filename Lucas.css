@@ -49,8 +49,9 @@ body, html {
     background-position: 30px center, 80px center;
 }
 
-.quatreLogo{
-    background-image: url(/logoTelephone.png), url(/logoCadeau.jpg), url(/logoCheck.jpg), url(/logoAppareilPhoto.png);
+.logoTelephone{
+    background-image: url(/logoTelephone.png);
     margin-left: 1000px;
     margin-top: 1000px;
+    z-index: 10;
 }
