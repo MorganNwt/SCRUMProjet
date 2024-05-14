@@ -1,0 +1,20 @@
+body {
+    margin:0;
+    padding:0;
+
+    }
+
+
+.bandeau_download{
+    background-image:
+    url(./image/footer.png);
+    padding: 150px;
+
+}
+
+.download_texte{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+   color: white;
+   margin-left: 100px;
+}
