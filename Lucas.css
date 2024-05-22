@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bandeauCitation {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to top right, blue, rgb(140, 0, 255));
+}
+.citation{
+    padding-top: 60px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 440px;
+    color: white;
+    margin-right: 440px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.filligranne{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -6px;
+    font-weight: bolder;
+}
+.filligranne2{
+    text-align: center;
+    font-size: 15px;
+    color : white;
+    margin-top: -65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.bandeau_quatre_images{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background-image: url(Telephone2.png), url(Ellipse.png);
+    background-repeat: no-repeat;
+    background-size: 800px , 400px 400px;
+    background-position: 30px center, 80px center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logoTelephone{
+    background-image: url(/logoTelephone.png);
+    margin-top: 5px;
+    z-index: 10;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.logo {
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    margin-top: -110px;
+    margin-left: -50px;
+}
+.logo-container {
+    position: absolute;
+    text-align: center;
+    width: 350px; /* Ajuste cette valeur selon la taille des logos et du texte */
+}
+
+.top-left {
+    top: -700px;
+    left: 840px;
+}
+
+.top-right {
+    top: -700px;
+    right: 250px;
+}
+
+.bottom-left {
+    bottom: 200px;
+    left: 840px;
+}
+
+.bottom-right {
+    bottom: 200px;
+    right: 250px;
+}
+
+.h2Lucas{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.pLucas{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.enterANewAge{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 40%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 180px;
+    position : relative;
+}
+
+.h2Lucas2{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+.pLucas2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 18px;
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.newAge{
+    position: absolute;
+    left: 900px;
+    width: 700px; /* Ajuste cette valeur selon la taille souhaitée */
+    height: 700px; /* Assure-toi que la hauteur est la même que la largeur */
+    border-radius: 50%;
+    overflow: hidden; /* Assure que l'image ne déborde pas du conteneur rond */
+    margin-top: -500px;
+    
+}
