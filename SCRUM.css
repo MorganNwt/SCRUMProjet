@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    padding:0;
+
+    }
+
+
+.bandeau_download{
+    background-image:
+    url(./image/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+
+}
+
+.download_texte{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+   color: white;
+}
+
+.download_btn{
+    border: solid 1px white;
+    border-radius: 40px;
+    background-color: transparent;
+    color: white;
+}
+
+
+.get_the_app_now{
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    background: linear-gradient(to right, #291DED, #7A00E0);
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+main{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+footer{
+    padding-top: 0px;
+    margin-top: -20px;
+    background: black;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    filter: brightness(70%);
+    padding: 5px;
+}
+
