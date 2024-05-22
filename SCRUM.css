@@ -8,6 +8,8 @@ body {
 .bandeau_download{
     background-image:
     url(./image/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 150px;
 
 }
